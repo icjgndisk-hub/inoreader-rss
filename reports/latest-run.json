@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T06:18:23+09:00",
+  "generated_at": "2026-10-21T06:55:35+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "ok",
-      "checked_at": "2026-10-21T06:17:13+09:00",
+      "checked_at": "2026-10-21T06:54:27+09:00",
       "discovered": 30,
       "new": 0,
       "stored": 540,
@@ -26,7 +26,7 @@
     },
     "weekly-ascii": {
       "status": "ok",
-      "checked_at": "2026-10-21T06:17:13+09:00",
+      "checked_at": "2026-10-21T06:54:27+09:00",
       "discovered": 988,
       "new": 0,
       "stored": 2490,
@@ -48,9 +48,9 @@
       "oldest_in_feed": "2026-10-09T18:05:00+09:00"
     },
     "ina-dani": {
-      "status": "ok",
-      "checked_at": "2026-10-21T06:17:13+09:00",
-      "discovered": 60,
+      "status": "failed",
+      "checked_at": "2026-10-21T06:54:27+09:00",
+      "discovered": 0,
       "new": 0,
       "stored": 548,
       "feed_items": 500,
@@ -61,37 +61,40 @@
       "article_successes": 0,
       "image_checks": 0,
       "image_successes": 0,
-      "http_requests": 3,
-      "pages": 2,
-      "errors": [],
-      "coverage": [
-        "known-frontier"
+      "http_requests": 0,
+      "pages": 0,
+      "errors": [
+        {
+          "url": "https://ina-dani.net/topics/result",
+          "error": "HTTPSConnectionPool(host='ina-dani.net', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='ina-dani.net', port=443) at 0x7f84c6d08500>, 'Connection to ina-dani.net timed out. (connect timeout=8)'))"
+        }
       ],
+      "coverage": [],
       "newest_publication": "2026-10-20T00:00:00+09:00",
       "oldest_in_feed": "2026-07-09T00:00:00+09:00"
     },
     "shinmai": {
       "status": "ok",
-      "checked_at": "2026-10-21T06:17:13+09:00",
-      "discovered": 759,
-      "new": 21,
-      "stored": 937,
+      "checked_at": "2026-10-21T06:54:27+09:00",
+      "discovered": 761,
+      "new": 3,
+      "stored": 940,
       "feed_items": 500,
       "pending_metadata": 0,
-      "images_in_feed": 400,
-      "verified_images_in_feed": 400,
-      "article_attempts": 17,
-      "article_successes": 17,
-      "image_checks": 14,
-      "image_successes": 14,
-      "http_requests": 37,
+      "images_in_feed": 399,
+      "verified_images_in_feed": 399,
+      "article_attempts": 10,
+      "article_successes": 10,
+      "image_checks": 1,
+      "image_successes": 1,
+      "http_requests": 17,
       "pages": 4,
       "errors": [],
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-10-21T06:15:04+09:00",
-      "oldest_in_feed": "2026-10-19T09:18:05+09:00"
+      "newest_publication": "2026-10-21T06:44:04+09:00",
+      "oldest_in_feed": "2026-10-19T09:35:00+09:00"
     }
   }
 }
