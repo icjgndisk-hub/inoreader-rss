@@ -1,0 +1,40 @@
+[app]
+# Set automatically in GitHub Actions from the repository name.
+base_url = ""
+feed_limit = 500
+combined_limit = 1000
+request_delay = 0.7
+request_timeout = 20
+run_budget_seconds = 600
+retries = 3
+max_article_requests = 90
+max_image_checks = 35
+max_list_pages = 6
+recheck_hours = 48
+user_agent = "PersonalNewsRSS/2.0 (+https://github.com/)"
+
+[sites.weekly-ascii]
+name = "週刊アスキーPLUS"
+home = "https://weekly.ascii.jp/"
+feed = "https://weekly.ascii.jp/cate/1/rss.xml"
+interval_minutes = 15
+archive_months_per_run = 2
+
+[sites.goguynet-matsumoto]
+name = "号外NET 松本"
+home = "https://matsumoto.goguynet.jp/"
+feed = "https://matsumoto.goguynet.jp/feed/"
+interval_minutes = 30
+
+[sites.shinmai]
+name = "信濃毎日新聞デジタル"
+home = "https://www.shinmai.co.jp/"
+sitemap = "https://www.shinmai.co.jp/sitemap.xml"
+listings = ["https://www.shinmai.co.jp/news/list/nagano/main", "https://www.shinmai.co.jp/news/list/zenkoku/main"]
+interval_minutes = 15
+
+[sites.ina-dani]
+name = "伊那谷ねっと"
+home = "https://ina-dani.net/"
+listing = "https://ina-dani.net/topics/result"
+interval_minutes = 30

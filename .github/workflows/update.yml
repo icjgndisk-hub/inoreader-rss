@@ -1,0 +1,102 @@
+name: Update image RSS
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: '初回・障害後の広めの再収集'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ['rsskit/**', 'generate.py', 'config.toml', 'requirements.txt', 'tests/**', 'scripts/**', '.github/workflows/**']
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  actions: write
+concurrency:
+  group: rss-update-and-pages
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 14
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install
+        run: python -m pip install -r requirements.txt
+      - name: Offline regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Compute public URL
+        env:
+          REPO: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import os
+          owner,name=os.environ['REPO'].split('/')
+          url=f'https://{owner.lower()}.github.io'
+          if name.lower()!=f'{owner.lower()}.github.io':url+='/'+name
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('FEED_BASE_URL='+url+'\n')
+          PY
+      - name: Collect news
+        id: collect
+        continue-on-error: true
+        env:
+          BOOTSTRAP: ${{ inputs.bootstrap }}
+        run: |
+          if [ "$BOOTSTRAP" = "true" ]; then
+            python generate.py --bootstrap --pages 18
+          else
+            python generate.py
+          fi
+      - name: Validate existing and generated RSS
+        id: validate
+        if: always()
+        run: python scripts/validate.py
+      - name: Save durable metadata and error report
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state public reports/latest-run.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update RSS and durable article history [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Upload Pages only
+        id: artifact
+        if: steps.validate.outcome == 'success'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+          retention-days: 1
+      - name: Deploy Pages
+        id: deploy
+        if: steps.artifact.outcome == 'success'
+        uses: actions/deploy-pages@v4
+      - name: Remove this run temporary Pages artifact
+        if: always() && steps.deploy.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}
+          GH_RUN_ID: ${{ github.run_id }}
+        run: python scripts/cleanup_artifact.py
+      - name: Status
+        if: always()
+        env:
+          COLLECT_OUTCOME: ${{ steps.collect.outcome }}
+        run: |
+          python scripts/summary.py
+          if [ "$COLLECT_OUTCOME" = "failure" ]; then exit 1; fi

@@ -1,0 +1,96 @@
+{
+  "checked_date_jst": "2026-10-20",
+  "note": "Raw pages used for development are not distributed. Minimal fixtures are under tests/fixtures.",
+  "responses": [
+    {
+      "fixture": "weekly-home.txt",
+      "bytes": 85094,
+      "sha256": "710efbda1345d30d4a37042bf261fcf129c0a43bd88c963aed56fbc12d45327d"
+    },
+    {
+      "fixture": "ina-article.txt",
+      "bytes": 17685,
+      "sha256": "c64dfa73e7ebe9089d0fad5c748de0fcf075c826933b486360acd201bb935314"
+    },
+    {
+      "fixture": "goguynet-home.txt",
+      "bytes": 216773,
+      "sha256": "a5b371475d08a521f7f799f21a85486f2b304f611bdb9d8f3da630cd2ac1c158"
+    },
+    {
+      "fixture": "weekly-article.txt",
+      "bytes": 32178,
+      "sha256": "1b8a5b7baa9da40aabf03909aa70f6054652ad21a9d2bbf4a2cce660e657aa10"
+    },
+    {
+      "fixture": "initial3.txt",
+      "bytes": 41907,
+      "sha256": "4ef0e6020d4e91191b8be5bbb22c1fdac2aa4e6245df090934cf2b9d8c529ca0"
+    },
+    {
+      "fixture": "shinmai-article.txt",
+      "bytes": 89622,
+      "sha256": "6211c876fa062689407f5b5c97becf93cecbb30549fa7cc33e6e1d9de9ca0a83"
+    },
+    {
+      "fixture": "initial0.txt",
+      "bytes": 32880,
+      "sha256": "9856036c9d553461cae60759e7c260c46fa35d20efed61e38df73f8c7742ffde"
+    },
+    {
+      "fixture": "shinmai-robots.txt",
+      "bytes": 1453,
+      "sha256": "d2cbea5c08fed1b0c3a1f478cc5faabe8e04e38b5bf74f0251ebbd920ae3dbc1"
+    },
+    {
+      "fixture": "shinmai-sitemap.txt",
+      "bytes": 84773,
+      "sha256": "ebf5d096cc58531d8854d140939480297aa8a84a091a986250e09f2f6e34d16f"
+    },
+    {
+      "fixture": "weekly-archive.txt",
+      "bytes": 1376451,
+      "sha256": "0046adbcaf615cb693e8783bd003a45b4b3ab557ac596bc41d719cb79228a497"
+    },
+    {
+      "fixture": "goguynet-article.txt",
+      "bytes": 258435,
+      "sha256": "41fd9afc6407a8eef8a6bbc283858eb5f7302af3a5d1b20d040c025c5e3a47ec"
+    },
+    {
+      "fixture": "initial2.txt",
+      "bytes": 264810,
+      "sha256": "19ae7123052b9a0a00329a59760543b821181abf577d1827b5d9eb2c5ea31340"
+    },
+    {
+      "fixture": "initial1.txt",
+      "bytes": 141752,
+      "sha256": "bea602298cea11e7e6f308f1366586a1505ec4a0f73e866742aba63c386857b1"
+    },
+    {
+      "fixture": "shinmai-sitemap-news.txt",
+      "bytes": 2667,
+      "sha256": "f2dd950a7f7ab2b540c488125d4d510feb6b4170aaab8d9ca7c06ce8ee5617bc"
+    },
+    {
+      "fixture": "weekly-robots.txt",
+      "bytes": 77,
+      "sha256": "f7aed2ecc10b59ac5cbb5ce4112b9321c318c749d3cc557f1e357223a50424d0"
+    },
+    {
+      "fixture": "goguynet-robots.txt",
+      "bytes": 35,
+      "sha256": "ee5cf1dce9b8ebaa7a825d00c21f07b9dad406370eb394b0205eda4665f0e769"
+    },
+    {
+      "fixture": "ina-result.txt",
+      "bytes": 65011,
+      "sha256": "b7a05916bf70f54dd0d31bd56aa088ebd0d47acb066f6930bad8b9390f231e3b"
+    },
+    {
+      "fixture": "ina-robots.txt",
+      "bytes": 69,
+      "sha256": "f56d10785058350599b621243d18f203b297be2f0bbe2bd71365d46d5dfa65a0"
+    }
+  ]
+}

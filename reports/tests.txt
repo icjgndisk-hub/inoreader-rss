@@ -1,0 +1,34 @@
+test_article_ld_not_logo (test_core.CoreTests.test_article_ld_not_logo) ... ok
+test_canonical (test_core.CoreTests.test_canonical) ... ok
+test_date_precision_timezone (test_core.CoreTests.test_date_precision_timezone) ... ok
+test_duplicate_merge (test_core.CoreTests.test_duplicate_merge) ... ok
+test_lazy_srcset (test_core.CoreTests.test_lazy_srcset) ... ok
+test_listing_date_pagination (test_core.CoreTests.test_listing_date_pagination) ... ok
+test_merge_preserves_date (test_core.CoreTests.test_merge_preserves_date) ... ok
+test_outage_preserves_existing (test_core.CoreTests.test_outage_preserves_existing) ... ok
+test_rss_escape_enclosure (test_core.CoreTests.test_rss_escape_enclosure) ... ok
+test_shinmai_public_fields_only (test_core.CoreTests.test_shinmai_public_fields_only) ... ok
+test_sitemap_lastmod_is_not_pubdate (test_core.CoreTests.test_sitemap_lastmod_is_not_pubdate) ... ok
+test_state_backup_corruption (test_core.CoreTests.test_state_backup_corruption) ... ok
+test_unknown_date_quarantined (test_core.CoreTests.test_unknown_date_quarantined) ... ok
+test_goguynet_actual_list (test_real_fixtures.Fixtures.test_goguynet_actual_list) ... ok
+test_goguynet_original_date_not_october_update (test_real_fixtures.Fixtures.test_goguynet_original_date_not_october_update) ... ok
+test_ina_actual_article (test_real_fixtures.Fixtures.test_ina_actual_article) ... ok
+test_ina_actual_list (test_real_fixtures.Fixtures.test_ina_actual_list) ... ok
+test_shinmai_actual_article (test_real_fixtures.Fixtures.test_shinmai_actual_article) ... ok
+test_shinmai_actual_metadata (test_real_fixtures.Fixtures.test_shinmai_actual_metadata) ... ok
+test_weekly_actual_article (test_real_fixtures.Fixtures.test_weekly_actual_article) ... ok
+test_weekly_actual_list (test_real_fixtures.Fixtures.test_weekly_actual_list) ... ok
+test_precise_rss_date_survives_minute_listing (test_resilience.Precision.test_precise_rss_date_survives_minute_listing) ... ok
+test_backfill_stops_after_bootstrap_target (test_resilience.Resilience.test_backfill_stops_after_bootstrap_target) ... ok
+test_failed_image_not_republished_during_cooldown (test_resilience.Resilience.test_failed_image_not_republished_during_cooldown) ... ok
+test_nophoto_not_article_image (test_resilience.Resilience.test_nophoto_not_article_image) ... ok
+test_retry_after_is_deferred (test_resilience.Resilience.test_retry_after_is_deferred) ... ok
+test_robots403_unavailable_but_article403_still_fails (test_resilience.Resilience.test_robots403_unavailable_but_article403_still_fails) ... ok
+test_robots_disallow_does_not_fetch_target (test_resilience.Resilience.test_robots_disallow_does_not_fetch_target) ... ok
+test_server_error_retries_then_recovers (test_resilience.Resilience.test_server_error_retries_then_recovers) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.062s
+
+OK
