@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-10-21T04:23:19+09:00",
+    "checked_at": "2026-10-21T05:04:39+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 540,
@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-10-21T04:23:19+09:00",
+    "checked_at": "2026-10-21T05:04:39+09:00",
     "discovered": 988,
     "new": 0,
     "stored": 2490,
@@ -47,7 +47,7 @@
   },
   "ina-dani": {
     "status": "ok",
-    "checked_at": "2026-10-21T04:23:19+09:00",
+    "checked_at": "2026-10-21T05:04:39+09:00",
     "discovered": 60,
     "new": 0,
     "stored": 548,
@@ -70,19 +70,19 @@
   },
   "shinmai": {
     "status": "ok",
-    "checked_at": "2026-10-21T04:23:19+09:00",
-    "discovered": 730,
-    "new": 1,
-    "stored": 905,
+    "checked_at": "2026-10-21T05:04:39+09:00",
+    "discovered": 731,
+    "new": 2,
+    "stored": 907,
     "feed_items": 500,
     "pending_metadata": 0,
     "images_in_feed": 398,
     "verified_images_in_feed": 398,
-    "article_attempts": 9,
-    "article_successes": 9,
+    "article_attempts": 10,
+    "article_successes": 10,
     "image_checks": 0,
     "image_successes": 0,
-    "http_requests": 14,
+    "http_requests": 15,
     "pages": 4,
     "errors": [],
     "coverage": [
