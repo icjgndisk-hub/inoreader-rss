@@ -59,7 +59,8 @@ def update(key,site,app,root,args):
     required=[];refresh=[]
     for e in items.values():
         if not due(e.get('article_error_at'),1):continue
-        missing=not e.get('title') or not e.get('published') or not e.get('images')
+        missing=(not e.get('title') or not e.get('published') or not e.get('images')
+                 or e.get('image_info',{}).get('status')=='failed')
         tiny_only=bool(e.get('images')) and all('/s/' in x['url'] for x in e['images'])
         if (missing or tiny_only) and due(e.get('article_checked_at'),app['recheck_hours']):required.append(e)
         elif e['url'] in discovered_urls and due(e.get('article_checked_at'),app['recheck_hours']):refresh.append(e)
@@ -75,7 +76,12 @@ def update(key,site,app,root,args):
     article_ok=0
     for position,e in enumerate(selected):
         try:
+            previous_images={x['url'] for x in e.get('images',[])}
             found=adapter.enrich(e['url']);merge(e,found);e['article_checked_at']=stamp();e.pop('article_error_at',None);article_ok+=1
+            # A broken listing image may have a working article-specific alternative.
+            # Retry immediately only when enrichment found a genuinely new URL.
+            if e.get('image_info',{}).get('status')=='failed' and any(x['url'] not in previous_images for x in e.get('images',[])):
+                e.pop('image_error_at',None)
         except Exception as exc:
             e['article_error_at']=stamp();errors.append({'url':e['url'],'error':str(exc)})
         if position%20==19:save(path,state)

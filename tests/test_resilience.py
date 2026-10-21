@@ -51,6 +51,22 @@ class Resilience(unittest.TestCase):
                 self.assertFalse(probe.called)
             self.assertNotIn(b'<img', (root/'public'/'ina-dani.xml').read_bytes())
             self.assertEqual(load(root/'state'/'ina-dani.json')['items'][e['url']]['image'],'')
+    def test_old_broken_listing_image_recovers_from_article_alternative(self):
+        e=entry('https://ina-dani.net/topics/detail/?id=1','Old article','2026-10-01','https://ina-dani.net/uploads/topic/image/1/broken.jpg','list')
+        e.update(first_seen=now().isoformat(),image='',image_info={'status':'failed'},image_error_at=now().isoformat())
+        replacement='https://ina-dani.net/uploads/topic/image/1/main.jpg'
+        current=entry('https://ina-dani.net/topics/detail/?id=2','New article','2026-10-20','https://ina-dani.net/uploads/topic/image/2/main.jpg','list')
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);save(root/'state'/'ina-dani.json',{'version':2,'items':{e['url']:e}})
+            def image_probe(client,url):
+                if url.endswith('broken.jpg'):raise RuntimeError('404')
+                return {'status':'ok','mime':'image/jpeg','width':640,'height':480,'length':1000}
+            with patch.object(Ina,'discover',return_value=[current]),patch.object(Ina,'enrich',return_value=entry(e['url'],'Old article','2026-10-01',replacement,'og:image')) as enrich,patch('rsskit.runner.probe',side_effect=image_probe):
+                update('ina-dani',CONFIG['sites']['ina-dani'],CONFIG['app'],root,SimpleNamespace(force=True,bootstrap=False,pages=1,articles=1,images=10))
+            enrich.assert_called_once_with(e['url'])
+            saved=load(root/'state'/'ina-dani.json')['items'];self.assertEqual(len(saved),2)
+            self.assertEqual(saved[e['url']]['image'],replacement)
+            self.assertEqual(saved[e['url']]['published'],e['published'])
 if __name__=='__main__':unittest.main()
 
 class Precision(unittest.TestCase):

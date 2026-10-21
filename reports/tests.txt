@@ -23,12 +23,13 @@ test_precise_rss_date_survives_minute_listing (test_resilience.Precision.test_pr
 test_backfill_stops_after_bootstrap_target (test_resilience.Resilience.test_backfill_stops_after_bootstrap_target) ... ok
 test_failed_image_not_republished_during_cooldown (test_resilience.Resilience.test_failed_image_not_republished_during_cooldown) ... ok
 test_nophoto_not_article_image (test_resilience.Resilience.test_nophoto_not_article_image) ... ok
+test_old_broken_listing_image_recovers_from_article_alternative (test_resilience.Resilience.test_old_broken_listing_image_recovers_from_article_alternative) ... ok
 test_retry_after_is_deferred (test_resilience.Resilience.test_retry_after_is_deferred) ... ok
 test_robots403_unavailable_but_article403_still_fails (test_resilience.Resilience.test_robots403_unavailable_but_article403_still_fails) ... ok
 test_robots_disallow_does_not_fetch_target (test_resilience.Resilience.test_robots_disallow_does_not_fetch_target) ... ok
 test_server_error_retries_then_recovers (test_resilience.Resilience.test_server_error_retries_then_recovers) ... ok
 
 ----------------------------------------------------------------------
-Ran 29 tests in 0.062s
+Ran 30 tests in 0.062s
 
 OK
