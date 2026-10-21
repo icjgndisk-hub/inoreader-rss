@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-10-21T14:13:14+09:00",
+  "environment": "isolated real-site run from production state; production state not overwritten",
+  "article": {
+    "url": "https://matsumoto.goguynet.jp/2025/11/24/matsumoto-takanotsume-2025winter/",
+    "published": "2025-11-24T07:54:37+09:00",
+    "image": "https://matsumoto.goguynet.jp/wp-content/uploads/sites/89/2023/11/IMG_3051.jpeg",
+    "image_info": {
+      "height": 768,
+      "length": 159854,
+      "mime": "image/jpeg",
+      "status": "ok",
+      "width": 1280
+    }
+  },
+  "result": {
+    "status": "partial",
+    "checked_at": "2026-10-21T14:13:14+09:00",
+    "discovered": 30,
+    "new": 0,
+    "stored": 541,
+    "feed_items": 500,
+    "pending_metadata": 0,
+    "images_in_feed": 500,
+    "verified_images_in_feed": 500,
+    "article_attempts": 1,
+    "article_successes": 1,
+    "image_checks": 1,
+    "image_successes": 1,
+    "http_requests": 7,
+    "pages": 3,
+    "errors": [
+      {
+        "url": "https://matsumoto.goguynet.jp/wp-content/uploads/sites/89/2025/11/main.jpg",
+        "error": "image: image-header-too-large"
+      }
+    ],
+    "coverage": [
+      "known-frontier"
+    ],
+    "newest_publication": "2026-10-21T12:30:00+09:00",
+    "oldest_in_feed": "2024-10-18T07:54:00+09:00"
+  }
+}

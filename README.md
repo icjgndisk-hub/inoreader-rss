@@ -2,7 +2,20 @@
 
 週刊アスキーPLUS・号外NET松本・信濃毎日新聞デジタル・伊那谷ねっとの見出し、公開日時、元記事URL、代表画像URLを収集し、RSS 2.0を生成する個人用プログラム。
 
-**コードと実サイト取得は検証済み。GitHubへの配置・公開URL・Inoreaderでの実表示は、同梱の検証報告を確認すること。未公開のURLを完成済みとして扱わない。**
+**公開・自動運転中。2026-10-21に週刊アスキーの新フィードをInoreaderへ登録し、一覧で複数記事のサムネイル表示を確認済み。** 残る3サイトの実画面確認状況は [公開・受入報告](reports/DEPLOYMENT.md) を参照。
+
+## 稼働中のRSS URL
+
+| サイト | Inoreaderへ登録するURL |
+|---|---|
+| 週刊アスキーPLUS | https://icjgndisk-hub.github.io/inoreader-rss/weekly-ascii.xml |
+| 号外NET 松本 | https://icjgndisk-hub.github.io/inoreader-rss/goguynet-matsumoto.xml |
+| 信濃毎日新聞デジタル | https://icjgndisk-hub.github.io/inoreader-rss/shinmai.xml |
+| 伊那谷ねっと | https://icjgndisk-hub.github.io/inoreader-rss/ina-dani.xml |
+
+[配信一覧・稼働状況](https://icjgndisk-hub.github.io/inoreader-rss/) · [4サイト統合](https://icjgndisk-hub.github.io/inoreader-rss/all.xml) · [OPML一括登録](https://icjgndisk-hub.github.io/inoreader-rss/feeds.opml) · [自動実行ログ](https://github.com/icjgndisk-hub/inoreader-rss/actions)
+
+この公開済み環境の利用者は下記の新規導入をやり直す必要はない。RSSは各500件を収録するが、Inoreaderへの初回登録で確認できた取り込み件数は週刊アスキー100件だった。生成側の履歴件数とInoreaderの初回取り込み件数は異なる。
 
 ## 構成と公開範囲
 
@@ -12,7 +25,7 @@
 
 現在のGitHub公式条件では、公開リポジトリで標準ホストランナーを使うActionsは無料。Private化するとこのワークフローは実行しない。課金されるlarger runner、外部有料サービス、Codespacesは使用しない。配信の一時artifactは公開後に当該実行分だけ削除し、失敗時も1日で失効する設定。無料サービスの条件変更や障害まで永久に保証するものではない。
 
-## 導入（ブラウザだけで行う場合）
+## 別アカウントへ新規導入する場合
 
 1. GitHubで新しい **Public** リポジトリを作る。推奨名は `inoreader-rss`。READMEの自動作成は不要。
 2. ZIPを展開し、`inoreader-rss` フォルダーの**中身**をすべてアップロードする。外側のフォルダーを丸ごと入れ子にしない。`.github/workflows/update.yml`、`rsskit/`、`config.toml`、`state/` がリポジトリ直下にあることを確認する。
@@ -68,6 +81,7 @@ python generate.py --render-only --base-url https://YOUR_ACCOUNT.github.io/YOUR_
 
 - Actionsは毎時07・22・37・52分に起動予定。週刊アスキーと信毎は15分、号外NETと伊那谷は30分を目安に処理する。処理完了時間ではなく前回試行開始時刻から判定する。
 - Actionsには遅延・欠落があり、Inoreader無料版には15分巡回の保証がない。RSSのttlも巡回を強制しない。
+- コード変更のpush時は間隔判定を待たず1回収集する。通常のscheduleはサイト別の間隔判定を適用する。実際の定期起動間隔は `reports/scheduled-runs.json` と公開・受入報告を参照。
 - 個別RSSは最新500件、統合RSSは最新1000件。500件より古い記事のメタデータも `state/` から削除しない。これらはGitコミットで永続保存し、Actions cacheを履歴の保存先にしない。
 - 初回の号外NET/伊那谷のバックフィルは500件程度を満たすまで分割継続。通常は少なくとも2ページを確認し、既知記事だけのページで追いついたと判断する。障害後に1実行で届かない場合はカーソルを保存する。
 - 週刊アスキーは公式RSS・トップ・月別アーカイブを組み合わせる。前回成功から月をまたいだ場合は、保存した月カーソルで順次回収する。
