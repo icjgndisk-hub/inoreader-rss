@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T08:38:10+09:00",
+  "generated_at": "2026-10-21T09:04:43+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "ok",
@@ -26,25 +26,25 @@
     },
     "weekly-ascii": {
       "status": "ok",
-      "checked_at": "2026-10-21T08:37:01+09:00",
-      "discovered": 991,
-      "new": 1,
-      "stored": 2493,
+      "checked_at": "2026-10-21T09:04:30+09:00",
+      "discovered": 994,
+      "new": 3,
+      "stored": 2496,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 90,
-      "article_successes": 90,
-      "image_checks": 1,
-      "image_successes": 1,
-      "http_requests": 96,
+      "article_attempts": 8,
+      "article_successes": 8,
+      "image_checks": 3,
+      "image_successes": 3,
+      "http_requests": 16,
       "pages": 3,
       "errors": [],
       "coverage": [
         "rss + top + monthly archives"
       ],
-      "newest_publication": "2026-10-21T08:15:00+09:00",
+      "newest_publication": "2026-10-21T09:00:00+09:00",
       "oldest_in_feed": "2026-10-09T19:00:00+09:00"
     },
     "ina-dani": {
@@ -71,27 +71,22 @@
       "oldest_in_feed": "2026-07-09T00:00:00+09:00"
     },
     "shinmai": {
-      "status": "partial",
-      "checked_at": "2026-10-21T08:37:01+09:00",
+      "status": "ok",
+      "checked_at": "2026-10-21T09:04:30+09:00",
       "discovered": 774,
-      "new": 4,
+      "new": 0,
       "stored": 956,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 393,
       "verified_images_in_feed": 393,
-      "article_attempts": 4,
-      "article_successes": 4,
-      "image_checks": 3,
-      "image_successes": 2,
-      "http_requests": 13,
+      "article_attempts": 0,
+      "article_successes": 0,
+      "image_checks": 0,
+      "image_successes": 0,
+      "http_requests": 5,
       "pages": 4,
-      "errors": [
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gfkn2026102001000388",
-          "error": "image: not-image-content-type: text/html"
-        }
-      ],
+      "errors": [],
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
