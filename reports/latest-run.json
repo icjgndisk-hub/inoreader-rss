@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T10:27:28+09:00",
+  "generated_at": "2026-10-21T11:10:42+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "ok",
-      "checked_at": "2026-10-21T10:27:10+09:00",
+      "checked_at": "2026-10-21T11:10:15+09:00",
       "discovered": 30,
       "new": 0,
       "stored": 540,
@@ -26,10 +26,10 @@
     },
     "weekly-ascii": {
       "status": "ok",
-      "checked_at": "2026-10-21T10:27:10+09:00",
-      "discovered": 998,
+      "checked_at": "2026-10-21T11:10:15+09:00",
+      "discovered": 999,
       "new": 1,
-      "stored": 2500,
+      "stored": 2501,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
@@ -44,12 +44,12 @@
       "coverage": [
         "rss + top + monthly archives"
       ],
-      "newest_publication": "2026-10-21T09:55:00+09:00",
+      "newest_publication": "2026-10-21T11:00:00+09:00",
       "oldest_in_feed": "2026-10-09T20:00:00+09:00"
     },
     "ina-dani": {
       "status": "ok",
-      "checked_at": "2026-10-21T10:27:10+09:00",
+      "checked_at": "2026-10-21T11:10:15+09:00",
       "discovered": 60,
       "new": 0,
       "stored": 548,
@@ -72,26 +72,26 @@
     },
     "shinmai": {
       "status": "ok",
-      "checked_at": "2026-10-21T10:27:10+09:00",
-      "discovered": 757,
-      "new": 12,
-      "stored": 971,
+      "checked_at": "2026-10-21T11:10:15+09:00",
+      "discovered": 765,
+      "new": 15,
+      "stored": 986,
       "feed_items": 500,
       "pending_metadata": 0,
-      "images_in_feed": 388,
-      "verified_images_in_feed": 388,
-      "article_attempts": 12,
-      "article_successes": 12,
-      "image_checks": 6,
-      "image_successes": 6,
-      "http_requests": 24,
+      "images_in_feed": 391,
+      "verified_images_in_feed": 391,
+      "article_attempts": 15,
+      "article_successes": 15,
+      "image_checks": 12,
+      "image_successes": 12,
+      "http_requests": 33,
       "pages": 4,
       "errors": [],
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-10-21T10:07:57+09:00",
-      "oldest_in_feed": "2026-10-19T12:30:27+09:00"
+      "newest_publication": "2026-10-21T11:00:29+09:00",
+      "oldest_in_feed": "2026-10-19T14:46:30+09:00"
     }
   }
 }
