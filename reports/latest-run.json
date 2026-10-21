@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T19:38:49+09:00",
+  "generated_at": "2026-10-21T20:18:15+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "ok",
-      "checked_at": "2026-10-21T19:38:26+09:00",
+      "checked_at": "2026-10-21T20:17:53+09:00",
       "discovered": 30,
       "new": 0,
       "stored": 541,
@@ -25,22 +25,35 @@
       "oldest_in_feed": "2024-10-18T07:54:00+09:00"
     },
     "weekly-ascii": {
-      "status": "ok",
-      "checked_at": "2026-10-21T19:38:26+09:00",
-      "discovered": 1049,
-      "new": 2,
+      "status": "failed",
+      "checked_at": "2026-10-21T20:17:53+09:00",
+      "discovered": 0,
+      "new": 0,
       "stored": 2551,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 8,
-      "article_successes": 8,
-      "image_checks": 2,
-      "image_successes": 2,
-      "http_requests": 15,
-      "pages": 3,
-      "errors": [],
+      "article_attempts": 0,
+      "article_successes": 0,
+      "image_checks": 0,
+      "image_successes": 0,
+      "http_requests": 9,
+      "pages": 0,
+      "errors": [
+        {
+          "url": "https://weekly.ascii.jp/cate/1/rss.xml",
+          "error": "robots-unavailable: 503 Server Error: Service Temporarily Unavailable for url: https://weekly.ascii.jp/robots.txt"
+        },
+        {
+          "url": "https://weekly.ascii.jp/",
+          "error": "robots-unavailable: 503 Server Error: Service Temporarily Unavailable for url: https://weekly.ascii.jp/robots.txt"
+        },
+        {
+          "url": "https://weekly.ascii.jp/archive/top/202610/",
+          "error": "robots-unavailable: 503 Server Error: Service Temporarily Unavailable for url: https://weekly.ascii.jp/robots.txt"
+        }
+      ],
       "coverage": [
         "rss + top + monthly archives"
       ],
@@ -49,7 +62,7 @@
     },
     "ina-dani": {
       "status": "ok",
-      "checked_at": "2026-10-21T19:38:26+09:00",
+      "checked_at": "2026-10-21T20:17:53+09:00",
       "discovered": 60,
       "new": 0,
       "stored": 554,
@@ -71,27 +84,32 @@
       "oldest_in_feed": "2026-07-10T00:00:00+09:00"
     },
     "shinmai": {
-      "status": "ok",
-      "checked_at": "2026-10-21T19:38:26+09:00",
-      "discovered": 806,
-      "new": 13,
-      "stored": 1099,
+      "status": "partial",
+      "checked_at": "2026-10-21T20:17:53+09:00",
+      "discovered": 117,
+      "new": 10,
+      "stored": 1109,
       "feed_items": 500,
       "pending_metadata": 0,
-      "images_in_feed": 391,
-      "verified_images_in_feed": 391,
-      "article_attempts": 13,
-      "article_successes": 13,
-      "image_checks": 13,
-      "image_successes": 13,
-      "http_requests": 32,
-      "pages": 4,
-      "errors": [],
+      "images_in_feed": 392,
+      "verified_images_in_feed": 392,
+      "article_attempts": 8,
+      "article_successes": 8,
+      "image_checks": 10,
+      "image_successes": 10,
+      "http_requests": 24,
+      "pages": 3,
+      "errors": [
+        {
+          "url": "https://www.shinmai.co.jp/sitemap.xml",
+          "error": "403 Client Error: Forbidden for url: https://www.shinmai.co.jp/sitemap.xml"
+        }
+      ],
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-10-21T19:20:12+09:00",
-      "oldest_in_feed": "2026-10-19T20:43:00+09:00"
+      "newest_publication": "2026-10-21T20:16:00+09:00",
+      "oldest_in_feed": "2026-10-19T21:32:00+09:00"
     }
   }
 }
