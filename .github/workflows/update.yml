@@ -55,9 +55,12 @@ jobs:
         continue-on-error: true
         env:
           BOOTSTRAP: ${{ inputs.bootstrap }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           if [ "$BOOTSTRAP" = "true" ]; then
             python generate.py --bootstrap --pages 18
+          elif [ "$EVENT_NAME" = "push" ]; then
+            python generate.py --force
           else
             python generate.py
           fi
