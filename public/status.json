@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-10-23T05:16:02+09:00",
+    "checked_at": "2026-10-23T05:55:29+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 542,
@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-10-23T05:16:02+09:00",
+    "checked_at": "2026-10-23T05:55:29+09:00",
     "discovered": 1109,
     "new": 0,
     "stored": 2612,
@@ -47,7 +47,7 @@
   },
   "ina-dani": {
     "status": "ok",
-    "checked_at": "2026-10-23T05:16:02+09:00",
+    "checked_at": "2026-10-23T05:55:29+09:00",
     "discovered": 60,
     "new": 0,
     "stored": 562,
@@ -69,26 +69,31 @@
     "oldest_in_feed": "2026-07-13T00:00:00+09:00"
   },
   "shinmai": {
-    "status": "ok",
-    "checked_at": "2026-10-23T05:16:02+09:00",
-    "discovered": 875,
+    "status": "partial",
+    "checked_at": "2026-10-23T05:55:29+09:00",
+    "discovered": 878,
     "new": 3,
-    "stored": 1484,
+    "stored": 1487,
     "feed_items": 500,
     "pending_metadata": 0,
-    "images_in_feed": 353,
-    "verified_images_in_feed": 353,
-    "article_attempts": 11,
-    "article_successes": 11,
-    "image_checks": 0,
-    "image_successes": 0,
-    "http_requests": 16,
+    "images_in_feed": 354,
+    "verified_images_in_feed": 354,
+    "article_attempts": 10,
+    "article_successes": 9,
+    "image_checks": 3,
+    "image_successes": 3,
+    "http_requests": 19,
     "pages": 4,
-    "errors": [],
+    "errors": [
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
+      }
+    ],
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
-    "newest_publication": "2026-10-23T05:01:38+09:00",
-    "oldest_in_feed": "2026-10-21T09:34:28+09:00"
+    "newest_publication": "2026-10-23T05:44:19+09:00",
+    "oldest_in_feed": "2026-10-21T10:00:00+09:00"
   }
 }
