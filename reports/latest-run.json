@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-22T10:24:45+09:00",
+  "generated_at": "2026-10-22T11:10:41+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "failed",
-      "checked_at": "2026-10-22T10:24:05+09:00",
+      "checked_at": "2026-10-22T11:09:44+09:00",
       "discovered": 0,
       "new": 0,
       "stored": 541,
@@ -15,16 +15,16 @@
       "article_successes": 0,
       "image_checks": 0,
       "image_successes": 0,
-      "http_requests": 3,
-      "pages": 2,
+      "http_requests": 0,
+      "pages": 0,
       "errors": [
         {
           "url": "https://matsumoto.goguynet.jp/feed/",
-          "error": "feed-empty-or-invalid"
+          "error": "HTTPSConnectionPool(host='matsumoto.goguynet.jp', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='matsumoto.goguynet.jp', port=443) at 0x7f33f9813860>, 'Connection to matsumoto.goguynet.jp timed out. (connect timeout=8)'))"
         },
         {
           "url": "https://matsumoto.goguynet.jp/",
-          "error": "listing-empty"
+          "error": "HTTPSConnectionPool(host='matsumoto.goguynet.jp', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='matsumoto.goguynet.jp', port=443) at 0x7f3400177ec0>, 'Connection to matsumoto.goguynet.jp timed out. (connect timeout=8)'))"
         }
       ],
       "coverage": [],
@@ -33,7 +33,7 @@
     },
     "weekly-ascii": {
       "status": "failed",
-      "checked_at": "2026-10-22T10:24:05+09:00",
+      "checked_at": "2026-10-22T11:09:44+09:00",
       "discovered": 0,
       "new": 0,
       "stored": 2551,
@@ -69,7 +69,7 @@
     },
     "ina-dani": {
       "status": "ok",
-      "checked_at": "2026-10-22T10:24:05+09:00",
+      "checked_at": "2026-10-22T11:09:44+09:00",
       "discovered": 60,
       "new": 0,
       "stored": 554,
@@ -77,11 +77,11 @@
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 8,
-      "article_successes": 8,
+      "article_attempts": 0,
+      "article_successes": 0,
       "image_checks": 0,
       "image_successes": 0,
-      "http_requests": 11,
+      "http_requests": 3,
       "pages": 2,
       "errors": [],
       "coverage": [
@@ -92,35 +92,31 @@
     },
     "shinmai": {
       "status": "partial",
-      "checked_at": "2026-10-22T10:24:05+09:00",
-      "discovered": 113,
-      "new": 7,
-      "stored": 1199,
+      "checked_at": "2026-10-22T11:09:44+09:00",
+      "discovered": 112,
+      "new": 3,
+      "stored": 1202,
       "feed_items": 500,
       "pending_metadata": 0,
-      "images_in_feed": 401,
-      "verified_images_in_feed": 401,
-      "article_attempts": 9,
-      "article_successes": 8,
-      "image_checks": 4,
-      "image_successes": 4,
-      "http_requests": 19,
+      "images_in_feed": 403,
+      "verified_images_in_feed": 403,
+      "article_attempts": 3,
+      "article_successes": 3,
+      "image_checks": 5,
+      "image_successes": 5,
+      "http_requests": 14,
       "pages": 3,
       "errors": [
         {
           "url": "https://www.shinmai.co.jp/sitemap.xml",
           "error": "403 Client Error: Forbidden for url: https://www.shinmai.co.jp/sitemap.xml"
-        },
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
-          "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
         }
       ],
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-10-22T10:14:25+09:00",
-      "oldest_in_feed": "2026-10-20T10:00:53+09:00"
+      "newest_publication": "2026-10-22T10:44:13+09:00",
+      "oldest_in_feed": "2026-10-20T10:07:06+09:00"
     }
   }
 }
