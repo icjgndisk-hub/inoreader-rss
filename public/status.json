@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-10-24T00:00:07+09:00",
+    "checked_at": "2026-10-24T00:40:57+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 543,
@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-10-24T00:00:07+09:00",
+    "checked_at": "2026-10-24T00:40:57+09:00",
     "discovered": 1169,
     "new": 0,
     "stored": 2672,
@@ -46,9 +46,9 @@
     "oldest_in_feed": "2026-10-14T20:00:00+09:00"
   },
   "ina-dani": {
-    "status": "failed",
-    "checked_at": "2026-10-24T00:00:07+09:00",
-    "discovered": 0,
+    "status": "ok",
+    "checked_at": "2026-10-24T00:40:57+09:00",
+    "discovered": 60,
     "new": 0,
     "stored": 568,
     "feed_items": 500,
@@ -59,39 +59,45 @@
     "article_successes": 0,
     "image_checks": 0,
     "image_successes": 0,
-    "http_requests": 0,
-    "pages": 0,
-    "errors": [
-      {
-        "url": "https://ina-dani.net/topics/result",
-        "error": "HTTPSConnectionPool(host='ina-dani.net', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='ina-dani.net', port=443) at 0x7f22875fbc20>, 'Connection to ina-dani.net timed out. (connect timeout=8)'))"
-      }
+    "http_requests": 3,
+    "pages": 2,
+    "errors": [],
+    "coverage": [
+      "known-frontier"
     ],
-    "coverage": [],
     "newest_publication": "2026-10-23T00:00:00+09:00",
     "oldest_in_feed": "2026-07-14T00:00:00+09:00"
   },
   "shinmai": {
-    "status": "ok",
-    "checked_at": "2026-10-24T00:00:07+09:00",
-    "discovered": 875,
-    "new": 1,
-    "stored": 1760,
+    "status": "partial",
+    "checked_at": "2026-10-24T00:40:57+09:00",
+    "discovered": 872,
+    "new": 2,
+    "stored": 1762,
     "feed_items": 500,
     "pending_metadata": 0,
-    "images_in_feed": 341,
-    "verified_images_in_feed": 341,
-    "article_attempts": 8,
-    "article_successes": 8,
-    "image_checks": 1,
-    "image_successes": 1,
-    "http_requests": 15,
+    "images_in_feed": 339,
+    "verified_images_in_feed": 339,
+    "article_attempts": 13,
+    "article_successes": 11,
+    "image_checks": 0,
+    "image_successes": 0,
+    "http_requests": 18,
     "pages": 4,
-    "errors": [],
+    "errors": [
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
+      }
+    ],
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
-    "newest_publication": "2026-10-23T23:19:00+09:00",
-    "oldest_in_feed": "2026-10-22T09:38:29+09:00"
+    "newest_publication": "2026-10-23T23:24:41+09:00",
+    "oldest_in_feed": "2026-10-22T09:46:05+09:00"
   }
 }
