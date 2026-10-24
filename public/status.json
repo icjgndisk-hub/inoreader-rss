@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-10-24T23:33:40+09:00",
+    "checked_at": "2026-10-25T00:04:09+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 544,
@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-10-24T23:33:40+09:00",
+    "checked_at": "2026-10-25T00:04:09+09:00",
     "discovered": 1186,
     "new": 0,
     "stored": 2689,
@@ -47,7 +47,7 @@
   },
   "ina-dani": {
     "status": "ok",
-    "checked_at": "2026-10-24T23:33:40+09:00",
+    "checked_at": "2026-10-25T00:04:09+09:00",
     "discovered": 60,
     "new": 0,
     "stored": 571,
@@ -69,26 +69,35 @@
     "oldest_in_feed": "2026-07-14T00:00:00+09:00"
   },
   "shinmai": {
-    "status": "ok",
-    "checked_at": "2026-10-24T23:33:40+09:00",
-    "discovered": 823,
-    "new": 3,
-    "stored": 1970,
+    "status": "partial",
+    "checked_at": "2026-10-25T00:04:09+09:00",
+    "discovered": 824,
+    "new": 1,
+    "stored": 1971,
     "feed_items": 500,
     "pending_metadata": 0,
     "images_in_feed": 338,
     "verified_images_in_feed": 338,
-    "article_attempts": 14,
-    "article_successes": 14,
-    "image_checks": 2,
-    "image_successes": 2,
-    "http_requests": 22,
+    "article_attempts": 11,
+    "article_successes": 9,
+    "image_checks": 0,
+    "image_successes": 0,
+    "http_requests": 16,
     "pages": 4,
-    "errors": [],
+    "errors": [
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
+      }
+    ],
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
-    "newest_publication": "2026-10-24T23:13:10+09:00",
-    "oldest_in_feed": "2026-10-22T23:27:32+09:00"
+    "newest_publication": "2026-10-24T23:59:57+09:00",
+    "oldest_in_feed": "2026-10-22T23:30:00+09:00"
   }
 }
