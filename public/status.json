@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-10-25T08:43:00+09:00",
+    "checked_at": "2026-10-25T09:48:37+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 544,
@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-10-25T09:06:03+09:00",
+    "checked_at": "2026-10-25T09:48:37+09:00",
     "discovered": 1186,
     "new": 0,
     "stored": 2689,
@@ -47,7 +47,7 @@
   },
   "ina-dani": {
     "status": "ok",
-    "checked_at": "2026-10-25T08:43:00+09:00",
+    "checked_at": "2026-10-25T09:48:37+09:00",
     "discovered": 60,
     "new": 0,
     "stored": 571,
@@ -69,26 +69,39 @@
     "oldest_in_feed": "2026-07-14T00:00:00+09:00"
   },
   "shinmai": {
-    "status": "ok",
-    "checked_at": "2026-10-25T09:06:03+09:00",
-    "discovered": 817,
-    "new": 2,
-    "stored": 2010,
+    "status": "partial",
+    "checked_at": "2026-10-25T09:48:37+09:00",
+    "discovered": 820,
+    "new": 11,
+    "stored": 2021,
     "feed_items": 500,
-    "pending_metadata": 0,
-    "images_in_feed": 352,
-    "verified_images_in_feed": 352,
-    "article_attempts": 7,
-    "article_successes": 7,
-    "image_checks": 2,
-    "image_successes": 2,
-    "http_requests": 15,
+    "pending_metadata": 1,
+    "images_in_feed": 346,
+    "verified_images_in_feed": 346,
+    "article_attempts": 13,
+    "article_successes": 10,
+    "image_checks": 4,
+    "image_successes": 4,
+    "http_requests": 25,
     "pages": 4,
-    "errors": [],
+    "errors": [
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101401001245",
+        "error": "502 Server Error: Bad Gateway for url: https://www.shinmai.co.jp/news/article/gfkn2026101401001245"
+      }
+    ],
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
-    "newest_publication": "2026-10-25T08:57:00+09:00",
-    "oldest_in_feed": "2026-10-23T06:00:00+09:00"
+    "newest_publication": "2026-10-25T09:36:09+09:00",
+    "oldest_in_feed": "2026-10-23T06:21:40+09:00"
   }
 }
