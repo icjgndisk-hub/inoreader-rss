@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-10-26T04:46:36+09:00",
+    "checked_at": "2026-10-26T05:07:01+09:00",
     "discovered": 1195,
     "new": 0,
     "stored": 2698,
@@ -70,25 +70,25 @@
   },
   "shinmai": {
     "status": "ok",
-    "checked_at": "2026-10-26T04:46:36+09:00",
-    "discovered": 711,
-    "new": 0,
-    "stored": 2169,
+    "checked_at": "2026-10-26T05:07:01+09:00",
+    "discovered": 708,
+    "new": 10,
+    "stored": 2179,
     "feed_items": 500,
     "pending_metadata": 0,
     "images_in_feed": 352,
     "verified_images_in_feed": 352,
-    "article_attempts": 1,
-    "article_successes": 1,
-    "image_checks": 0,
-    "image_successes": 0,
-    "http_requests": 6,
+    "article_attempts": 12,
+    "article_successes": 12,
+    "image_checks": 9,
+    "image_successes": 9,
+    "http_requests": 27,
     "pages": 4,
     "errors": [],
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
-    "newest_publication": "2026-10-26T00:18:00+09:00",
-    "oldest_in_feed": "2026-10-23T17:30:00+09:00"
+    "newest_publication": "2026-10-26T05:00:09+09:00",
+    "oldest_in_feed": "2026-10-23T18:04:57+09:00"
   }
 }
