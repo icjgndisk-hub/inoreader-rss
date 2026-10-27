@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-10-28T05:15:28+09:00",
+    "checked_at": "2026-10-28T05:56:56+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 546,
@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-10-28T05:15:28+09:00",
+    "checked_at": "2026-10-28T05:56:56+09:00",
     "discovered": 1337,
     "new": 0,
     "stored": 2840,
@@ -47,7 +47,7 @@
   },
   "ina-dani": {
     "status": "ok",
-    "checked_at": "2026-10-28T05:15:28+09:00",
+    "checked_at": "2026-10-28T05:56:56+09:00",
     "discovered": 60,
     "new": 0,
     "stored": 575,
@@ -69,39 +69,26 @@
     "oldest_in_feed": "2026-07-15T00:00:00+09:00"
   },
   "shinmai": {
-    "status": "partial",
-    "checked_at": "2026-10-28T05:15:28+09:00",
-    "discovered": 752,
-    "new": 10,
-    "stored": 2712,
+    "status": "ok",
+    "checked_at": "2026-10-28T05:56:56+09:00",
+    "discovered": 754,
+    "new": 2,
+    "stored": 2714,
     "feed_items": 500,
     "pending_metadata": 1,
     "images_in_feed": 371,
     "verified_images_in_feed": 371,
-    "article_attempts": 20,
-    "article_successes": 17,
-    "image_checks": 9,
-    "image_successes": 9,
-    "http_requests": 35,
+    "article_attempts": 12,
+    "article_successes": 12,
+    "image_checks": 1,
+    "image_successes": 1,
+    "http_requests": 19,
     "pages": 4,
-    "errors": [
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g"
-      },
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
-      },
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
-      }
-    ],
+    "errors": [],
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
-    "newest_publication": "2026-10-28T05:00:08+09:00",
-    "oldest_in_feed": "2026-10-26T07:00:03+09:00"
+    "newest_publication": "2026-10-28T05:41:20+09:00",
+    "oldest_in_feed": "2026-10-26T07:09:38+09:00"
   }
 }
