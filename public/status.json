@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-10-28T12:19:58+09:00",
+    "checked_at": "2026-10-28T13:11:13+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 546,
@@ -9,11 +9,11 @@
     "pending_metadata": 0,
     "images_in_feed": 500,
     "verified_images_in_feed": 500,
-    "article_attempts": 0,
-    "article_successes": 0,
-    "image_checks": 0,
-    "image_successes": 0,
-    "http_requests": 4,
+    "article_attempts": 2,
+    "article_successes": 2,
+    "image_checks": 1,
+    "image_successes": 1,
+    "http_requests": 7,
     "pages": 3,
     "errors": [],
     "coverage": [
@@ -24,30 +24,30 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-10-28T12:19:58+09:00",
-    "discovered": 1364,
-    "new": 15,
-    "stored": 2867,
+    "checked_at": "2026-10-28T13:11:13+09:00",
+    "discovered": 1368,
+    "new": 4,
+    "stored": 2871,
     "feed_items": 500,
     "pending_metadata": 0,
     "images_in_feed": 500,
     "verified_images_in_feed": 500,
     "article_attempts": 8,
     "article_successes": 8,
-    "image_checks": 18,
-    "image_successes": 18,
-    "http_requests": 31,
+    "image_checks": 9,
+    "image_successes": 9,
+    "http_requests": 22,
     "pages": 3,
     "errors": [],
     "coverage": [
       "rss + top + monthly archives"
     ],
-    "newest_publication": "2026-10-28T12:15:00+09:00",
-    "oldest_in_feed": "2026-10-19T11:05:00+09:00"
+    "newest_publication": "2026-10-28T12:50:00+09:00",
+    "oldest_in_feed": "2026-10-19T11:35:00+09:00"
   },
   "ina-dani": {
     "status": "ok",
-    "checked_at": "2026-10-28T12:19:58+09:00",
+    "checked_at": "2026-10-28T13:11:13+09:00",
     "discovered": 60,
     "new": 0,
     "stored": 575,
@@ -55,11 +55,11 @@
     "pending_metadata": 0,
     "images_in_feed": 500,
     "verified_images_in_feed": 500,
-    "article_attempts": 0,
-    "article_successes": 0,
+    "article_attempts": 1,
+    "article_successes": 1,
     "image_checks": 0,
     "image_successes": 0,
-    "http_requests": 3,
+    "http_requests": 4,
     "pages": 2,
     "errors": [],
     "coverage": [
@@ -69,39 +69,26 @@
     "oldest_in_feed": "2026-07-15T00:00:00+09:00"
   },
   "shinmai": {
-    "status": "partial",
-    "checked_at": "2026-10-28T12:19:58+09:00",
-    "discovered": 770,
-    "new": 10,
-    "stored": 2784,
+    "status": "ok",
+    "checked_at": "2026-10-28T13:11:13+09:00",
+    "discovered": 771,
+    "new": 9,
+    "stored": 2793,
     "feed_items": 500,
     "pending_metadata": 1,
-    "images_in_feed": 371,
-    "verified_images_in_feed": 371,
-    "article_attempts": 21,
-    "article_successes": 18,
+    "images_in_feed": 369,
+    "verified_images_in_feed": 369,
+    "article_attempts": 54,
+    "article_successes": 54,
     "image_checks": 4,
     "image_successes": 4,
-    "http_requests": 31,
+    "http_requests": 64,
     "pages": 4,
-    "errors": [
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g"
-      },
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
-      },
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
-      }
-    ],
+    "errors": [],
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
-    "newest_publication": "2026-10-28T12:00:01+09:00",
-    "oldest_in_feed": "2026-10-26T14:31:07+09:00"
+    "newest_publication": "2026-10-28T13:03:02+09:00",
+    "oldest_in_feed": "2026-10-26T15:30:00+09:00"
   }
 }
