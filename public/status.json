@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-10-29T08:13:42+09:00",
+    "checked_at": "2026-10-29T08:55:26+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 546,
@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-10-29T08:13:42+09:00",
+    "checked_at": "2026-10-29T08:55:26+09:00",
     "discovered": 1433,
     "new": 0,
     "stored": 2936,
@@ -47,7 +47,7 @@
   },
   "ina-dani": {
     "status": "ok",
-    "checked_at": "2026-10-29T08:13:42+09:00",
+    "checked_at": "2026-10-29T08:55:26+09:00",
     "discovered": 60,
     "new": 0,
     "stored": 575,
@@ -70,28 +70,24 @@
   },
   "shinmai": {
     "status": "partial",
-    "checked_at": "2026-10-29T08:13:42+09:00",
-    "discovered": 876,
-    "new": 4,
+    "checked_at": "2026-10-29T08:55:26+09:00",
+    "discovered": 875,
+    "new": 0,
     "stored": 3036,
     "feed_items": 500,
     "pending_metadata": 1,
-    "images_in_feed": 337,
-    "verified_images_in_feed": 337,
-    "article_attempts": 26,
-    "article_successes": 24,
-    "image_checks": 0,
-    "image_successes": 0,
-    "http_requests": 31,
+    "images_in_feed": 338,
+    "verified_images_in_feed": 338,
+    "article_attempts": 14,
+    "article_successes": 13,
+    "image_checks": 1,
+    "image_successes": 1,
+    "http_requests": 21,
     "pages": 4,
     "errors": [
       {
-        "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
-      },
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
+        "url": "https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g"
       }
     ],
     "coverage": [
