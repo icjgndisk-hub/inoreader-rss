@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-28T09:32:39+09:00",
+  "generated_at": "2026-10-28T10:36:32+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "ok",
-      "checked_at": "2026-10-28T09:32:14+09:00",
+      "checked_at": "2026-10-28T10:35:13+09:00",
       "discovered": 30,
       "new": 0,
       "stored": 546,
@@ -26,10 +26,10 @@
     },
     "weekly-ascii": {
       "status": "ok",
-      "checked_at": "2026-10-28T09:32:14+09:00",
-      "discovered": 1343,
-      "new": 3,
-      "stored": 2846,
+      "checked_at": "2026-10-28T10:35:13+09:00",
+      "discovered": 1345,
+      "new": 2,
+      "stored": 2848,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
@@ -44,12 +44,12 @@
       "coverage": [
         "rss + top + monthly archives"
       ],
-      "newest_publication": "2026-10-28T09:30:00+09:00",
+      "newest_publication": "2026-10-28T10:25:00+09:00",
       "oldest_in_feed": "2026-10-18T17:00:00+09:00"
     },
     "ina-dani": {
       "status": "ok",
-      "checked_at": "2026-10-28T09:32:14+09:00",
+      "checked_at": "2026-10-28T10:35:13+09:00",
       "discovered": 60,
       "new": 0,
       "stored": 575,
@@ -57,11 +57,11 @@
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 0,
-      "article_successes": 0,
+      "article_attempts": 8,
+      "article_successes": 8,
       "image_checks": 0,
       "image_successes": 0,
-      "http_requests": 3,
+      "http_requests": 11,
       "pages": 2,
       "errors": [],
       "coverage": [
@@ -72,19 +72,19 @@
     },
     "shinmai": {
       "status": "partial",
-      "checked_at": "2026-10-28T09:32:14+09:00",
-      "discovered": 774,
-      "new": 6,
-      "stored": 2752,
+      "checked_at": "2026-10-28T10:35:13+09:00",
+      "discovered": 771,
+      "new": 8,
+      "stored": 2760,
       "feed_items": 500,
       "pending_metadata": 1,
-      "images_in_feed": 374,
-      "verified_images_in_feed": 374,
-      "article_attempts": 20,
-      "article_successes": 17,
+      "images_in_feed": 373,
+      "verified_images_in_feed": 373,
+      "article_attempts": 90,
+      "article_successes": 87,
       "image_checks": 3,
       "image_successes": 3,
-      "http_requests": 29,
+      "http_requests": 99,
       "pages": 4,
       "errors": [
         {
@@ -103,8 +103,8 @@
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-10-28T09:16:22+09:00",
-      "oldest_in_feed": "2026-10-26T10:53:50+09:00"
+      "newest_publication": "2026-10-28T10:21:20+09:00",
+      "oldest_in_feed": "2026-10-26T11:38:22+09:00"
     }
   }
 }
