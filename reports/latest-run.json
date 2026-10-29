@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-30T00:30:12+09:00",
+  "generated_at": "2026-10-30T01:30:09+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "ok",
-      "checked_at": "2026-10-30T00:28:41+09:00",
+      "checked_at": "2026-10-30T01:29:11+09:00",
       "discovered": 30,
       "new": 0,
       "stored": 546,
@@ -26,7 +26,7 @@
     },
     "weekly-ascii": {
       "status": "ok",
-      "checked_at": "2026-10-30T00:28:41+09:00",
+      "checked_at": "2026-10-30T01:29:11+09:00",
       "discovered": 1490,
       "new": 0,
       "stored": 2993,
@@ -49,7 +49,7 @@
     },
     "ina-dani": {
       "status": "ok",
-      "checked_at": "2026-10-30T00:28:41+09:00",
+      "checked_at": "2026-10-30T01:29:11+09:00",
       "discovered": 60,
       "new": 0,
       "stored": 575,
@@ -57,11 +57,11 @@
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 1,
-      "article_successes": 1,
+      "article_attempts": 0,
+      "article_successes": 0,
       "image_checks": 0,
       "image_successes": 0,
-      "http_requests": 4,
+      "http_requests": 3,
       "pages": 2,
       "errors": [],
       "coverage": [
@@ -72,7 +72,7 @@
     },
     "shinmai": {
       "status": "failed",
-      "checked_at": "2026-10-30T00:28:41+09:00",
+      "checked_at": "2026-10-30T01:29:11+09:00",
       "discovered": 0,
       "new": 0,
       "stored": 3266,
@@ -80,11 +80,11 @@
       "pending_metadata": 1,
       "images_in_feed": 319,
       "verified_images_in_feed": 319,
-      "article_attempts": 9,
+      "article_attempts": 4,
       "article_successes": 0,
       "image_checks": 0,
       "image_successes": 0,
-      "http_requests": 39,
+      "http_requests": 24,
       "pages": 0,
       "errors": [
         {
@@ -117,26 +117,6 @@
         },
         {
           "url": "https://www.shinmai.co.jp/news/article/gfkn2026102301001965",
-          "error": "robots-unavailable: 503 Server Error: Service Temporarily Unavailable for url: https://www.shinmai.co.jp/robots.txt"
-        },
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gfkn2026102301001953",
-          "error": "robots-unavailable: 503 Server Error: Service Temporarily Unavailable for url: https://www.shinmai.co.jp/robots.txt"
-        },
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
-          "error": "robots-unavailable: 503 Server Error: Service Temporarily Unavailable for url: https://www.shinmai.co.jp/robots.txt"
-        },
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gfkn2026102101001716",
-          "error": "robots-unavailable: 503 Server Error: Service Temporarily Unavailable for url: https://www.shinmai.co.jp/robots.txt"
-        },
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gfkn2026102101001674",
-          "error": "robots-unavailable: 503 Server Error: Service Temporarily Unavailable for url: https://www.shinmai.co.jp/robots.txt"
-        },
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
           "error": "robots-unavailable: 503 Server Error: Service Temporarily Unavailable for url: https://www.shinmai.co.jp/robots.txt"
         }
       ],
