@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-31T16:55:02+09:00",
+  "generated_at": "2026-10-31T17:48:09+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "ok",
-      "checked_at": "2026-10-31T16:54:22+09:00",
+      "checked_at": "2026-10-31T17:47:23+09:00",
       "discovered": 30,
       "new": 0,
       "stored": 546,
@@ -26,85 +26,72 @@
     },
     "weekly-ascii": {
       "status": "ok",
-      "checked_at": "2026-10-31T16:54:22+09:00",
-      "discovered": 1559,
-      "new": 2,
-      "stored": 3062,
+      "checked_at": "2026-10-31T17:47:24+09:00",
+      "discovered": 1562,
+      "new": 3,
+      "stored": 3065,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
       "article_attempts": 8,
       "article_successes": 8,
-      "image_checks": 5,
-      "image_successes": 5,
-      "http_requests": 18,
+      "image_checks": 6,
+      "image_successes": 6,
+      "http_requests": 19,
       "pages": 3,
       "errors": [],
       "coverage": [
         "rss + top + monthly archives"
       ],
-      "newest_publication": "2026-10-31T16:45:00+09:00",
-      "oldest_in_feed": "2026-10-22T11:00:00+09:00"
+      "newest_publication": "2026-10-31T17:30:00+09:00",
+      "oldest_in_feed": "2026-10-22T12:00:00+09:00"
     },
     "ina-dani": {
       "status": "ok",
-      "checked_at": "2026-10-31T16:54:22+09:00",
+      "checked_at": "2026-10-31T17:47:24+09:00",
       "discovered": 60,
-      "new": 0,
-      "stored": 596,
+      "new": 2,
+      "stored": 598,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 0,
-      "article_successes": 0,
-      "image_checks": 0,
-      "image_successes": 0,
-      "http_requests": 3,
+      "article_attempts": 2,
+      "article_successes": 2,
+      "image_checks": 3,
+      "image_successes": 3,
+      "http_requests": 8,
       "pages": 2,
       "errors": [],
       "coverage": [
         "known-frontier"
       ],
-      "newest_publication": "2026-10-30T00:00:00+09:00",
-      "oldest_in_feed": "2026-07-19T00:00:00+09:00"
+      "newest_publication": "2026-10-31T00:00:00+09:00",
+      "oldest_in_feed": "2026-07-21T00:00:00+09:00"
     },
     "shinmai": {
-      "status": "partial",
-      "checked_at": "2026-10-31T16:54:22+09:00",
-      "discovered": 953,
-      "new": 17,
-      "stored": 3732,
+      "status": "ok",
+      "checked_at": "2026-10-31T17:47:24+09:00",
+      "discovered": 941,
+      "new": 14,
+      "stored": 3746,
       "feed_items": 500,
       "pending_metadata": 1,
       "images_in_feed": 334,
       "verified_images_in_feed": 334,
-      "article_attempts": 34,
-      "article_successes": 31,
+      "article_attempts": 40,
+      "article_successes": 40,
       "image_checks": 11,
       "image_successes": 11,
-      "http_requests": 51,
+      "http_requests": 57,
       "pages": 4,
-      "errors": [
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g",
-          "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g"
-        },
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
-          "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
-        },
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
-          "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
-        }
-      ],
+      "errors": [],
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-10-31T16:45:22+09:00",
-      "oldest_in_feed": "2026-10-29T20:29:25+09:00"
+      "newest_publication": "2026-10-31T17:41:00+09:00",
+      "oldest_in_feed": "2026-10-29T21:07:00+09:00"
     }
   }
 }
