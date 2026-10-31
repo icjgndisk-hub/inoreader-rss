@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-11-01T01:40:27+09:00",
+    "checked_at": "2026-11-01T02:17:32+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 546,
@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-11-01T01:40:27+09:00",
+    "checked_at": "2026-11-01T02:17:32+09:00",
     "discovered": 32,
     "new": 0,
     "stored": 3071,
@@ -47,7 +47,7 @@
   },
   "ina-dani": {
     "status": "ok",
-    "checked_at": "2026-11-01T01:40:27+09:00",
+    "checked_at": "2026-11-01T02:17:32+09:00",
     "discovered": 60,
     "new": 0,
     "stored": 601,
@@ -69,8 +69,8 @@
     "oldest_in_feed": "2026-07-21T00:00:00+09:00"
   },
   "shinmai": {
-    "status": "partial",
-    "checked_at": "2026-11-01T01:40:27+09:00",
+    "status": "ok",
+    "checked_at": "2026-11-01T02:17:32+09:00",
     "discovered": 835,
     "new": 0,
     "stored": 3797,
@@ -78,26 +78,13 @@
     "pending_metadata": 1,
     "images_in_feed": 347,
     "verified_images_in_feed": 347,
-    "article_attempts": 11,
+    "article_attempts": 8,
     "article_successes": 8,
     "image_checks": 0,
     "image_successes": 0,
-    "http_requests": 16,
+    "http_requests": 13,
     "pages": 4,
-    "errors": [
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g"
-      },
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
-      },
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
-      }
-    ],
+    "errors": [],
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
