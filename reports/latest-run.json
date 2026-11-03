@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T12:30:21+09:00",
+  "generated_at": "2026-11-03T13:30:13+09:00",
   "sites": {
     "goguynet-matsumoto": {
-      "status": "partial",
-      "checked_at": "2026-11-03T12:29:13+09:00",
+      "status": "ok",
+      "checked_at": "2026-11-03T13:29:27+09:00",
       "discovered": 30,
       "new": 0,
       "stored": 546,
@@ -11,18 +11,13 @@
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 0,
-      "article_successes": 0,
-      "image_checks": 0,
-      "image_successes": 0,
-      "http_requests": 3,
-      "pages": 2,
-      "errors": [
-        {
-          "url": "https://matsumoto.goguynet.jp/feed/",
-          "error": "HTTPSConnectionPool(host='matsumoto.goguynet.jp', port=443): Read timed out. (read timeout=20)"
-        }
-      ],
+      "article_attempts": 2,
+      "article_successes": 2,
+      "image_checks": 1,
+      "image_successes": 1,
+      "http_requests": 7,
+      "pages": 3,
+      "errors": [],
       "coverage": [
         "known-frontier"
       ],
@@ -31,19 +26,19 @@
     },
     "weekly-ascii": {
       "status": "ok",
-      "checked_at": "2026-11-03T12:29:13+09:00",
+      "checked_at": "2026-11-03T13:29:27+09:00",
       "discovered": 77,
-      "new": 3,
+      "new": 0,
       "stored": 3148,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 5,
-      "article_successes": 5,
-      "image_checks": 9,
-      "image_successes": 9,
-      "http_requests": 19,
+      "article_attempts": 0,
+      "article_successes": 0,
+      "image_checks": 2,
+      "image_successes": 2,
+      "http_requests": 7,
       "pages": 3,
       "errors": [],
       "coverage": [
@@ -54,7 +49,7 @@
     },
     "ina-dani": {
       "status": "ok",
-      "checked_at": "2026-11-03T12:29:13+09:00",
+      "checked_at": "2026-11-03T13:29:27+09:00",
       "discovered": 60,
       "new": 0,
       "stored": 619,
@@ -62,11 +57,11 @@
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 3,
-      "article_successes": 3,
+      "article_attempts": 1,
+      "article_successes": 1,
       "image_checks": 0,
       "image_successes": 0,
-      "http_requests": 6,
+      "http_requests": 4,
       "pages": 2,
       "errors": [],
       "coverage": [
@@ -77,39 +72,31 @@
     },
     "shinmai": {
       "status": "partial",
-      "checked_at": "2026-11-03T12:29:13+09:00",
-      "discovered": 643,
-      "new": 7,
-      "stored": 4300,
+      "checked_at": "2026-11-03T13:29:27+09:00",
+      "discovered": 641,
+      "new": 2,
+      "stored": 4302,
       "feed_items": 500,
       "pending_metadata": 1,
-      "images_in_feed": 368,
-      "verified_images_in_feed": 368,
-      "article_attempts": 60,
-      "article_successes": 57,
-      "image_checks": 4,
-      "image_successes": 4,
-      "http_requests": 70,
+      "images_in_feed": 367,
+      "verified_images_in_feed": 367,
+      "article_attempts": 53,
+      "article_successes": 52,
+      "image_checks": 0,
+      "image_successes": 0,
+      "http_requests": 58,
       "pages": 4,
       "errors": [
         {
           "url": "https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g",
           "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g"
-        },
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
-          "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
-        },
-        {
-          "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
-          "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
         }
       ],
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-11-03T12:02:30+09:00",
-      "oldest_in_feed": "2026-10-31T21:31:00+09:00"
+      "newest_publication": "2026-11-03T13:17:22+09:00",
+      "oldest_in_feed": "2026-10-31T22:23:10+09:00"
     }
   }
 }
