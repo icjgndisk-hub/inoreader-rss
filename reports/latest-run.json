@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-05T17:10:40+09:00",
+  "generated_at": "2026-11-05T18:24:22+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "ok",
-      "checked_at": "2026-11-05T17:09:23+09:00",
+      "checked_at": "2026-11-05T18:23:16+09:00",
       "discovered": 30,
       "new": 0,
       "stored": 547,
@@ -11,11 +11,11 @@
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 1,
-      "article_successes": 1,
+      "article_attempts": 0,
+      "article_successes": 0,
       "image_checks": 0,
       "image_successes": 0,
-      "http_requests": 5,
+      "http_requests": 4,
       "pages": 3,
       "errors": [],
       "coverage": [
@@ -26,10 +26,10 @@
     },
     "weekly-ascii": {
       "status": "ok",
-      "checked_at": "2026-11-05T17:09:24+09:00",
-      "discovered": 185,
+      "checked_at": "2026-11-05T18:23:16+09:00",
+      "discovered": 191,
       "new": 6,
-      "stored": 3256,
+      "stored": 3262,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
@@ -44,50 +44,47 @@
       "coverage": [
         "rss + top + monthly archives"
       ],
-      "newest_publication": "2026-11-05T17:05:00+09:00",
-      "oldest_in_feed": "2026-10-26T21:30:00+09:00"
+      "newest_publication": "2026-11-05T18:15:00+09:00",
+      "oldest_in_feed": "2026-10-26T23:00:00+09:00"
     },
     "ina-dani": {
-      "status": "failed",
-      "checked_at": "2026-11-05T17:09:23+09:00",
-      "discovered": 0,
+      "status": "ok",
+      "checked_at": "2026-11-05T18:23:16+09:00",
+      "discovered": 60,
       "new": 0,
       "stored": 625,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 0,
-      "article_successes": 0,
+      "article_attempts": 1,
+      "article_successes": 1,
       "image_checks": 0,
       "image_successes": 0,
-      "http_requests": 3,
-      "pages": 0,
-      "errors": [
-        {
-          "url": "https://ina-dani.net/topics/result",
-          "error": "HTTPSConnectionPool(host='ina-dani.net', port=443): Read timed out. (read timeout=20)"
-        }
+      "http_requests": 4,
+      "pages": 2,
+      "errors": [],
+      "coverage": [
+        "known-frontier"
       ],
-      "coverage": [],
       "newest_publication": "2026-11-04T00:00:00+09:00",
       "oldest_in_feed": "2026-07-26T00:00:00+09:00"
     },
     "shinmai": {
       "status": "partial",
-      "checked_at": "2026-11-05T17:09:23+09:00",
-      "discovered": 708,
+      "checked_at": "2026-11-05T18:23:17+09:00",
+      "discovered": 715,
       "new": 27,
-      "stored": 4798,
+      "stored": 4825,
       "feed_items": 500,
       "pending_metadata": 1,
-      "images_in_feed": 348,
-      "verified_images_in_feed": 348,
+      "images_in_feed": 350,
+      "verified_images_in_feed": 350,
       "article_attempts": 47,
       "article_successes": 44,
-      "image_checks": 15,
-      "image_successes": 15,
-      "http_requests": 68,
+      "image_checks": 19,
+      "image_successes": 19,
+      "http_requests": 72,
       "pages": 4,
       "errors": [
         {
@@ -106,8 +103,8 @@
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-11-05T17:05:56+09:00",
-      "oldest_in_feed": "2026-11-03T11:30:00+09:00"
+      "newest_publication": "2026-11-05T18:20:22+09:00",
+      "oldest_in_feed": "2026-11-03T15:39:35+09:00"
     }
   }
 }
