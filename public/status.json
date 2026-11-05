@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-11-06T03:57:49+09:00",
+    "checked_at": "2026-11-06T04:56:23+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 547,
@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-11-06T03:57:49+09:00",
+    "checked_at": "2026-11-06T04:56:23+09:00",
     "discovered": 206,
     "new": 0,
     "stored": 3277,
@@ -47,7 +47,7 @@
   },
   "ina-dani": {
     "status": "ok",
-    "checked_at": "2026-11-06T03:57:49+09:00",
+    "checked_at": "2026-11-06T04:56:23+09:00",
     "discovered": 60,
     "new": 0,
     "stored": 631,
@@ -69,39 +69,26 @@
     "oldest_in_feed": "2026-07-27T00:00:00+09:00"
   },
   "shinmai": {
-    "status": "partial",
-    "checked_at": "2026-11-06T03:57:49+09:00",
-    "discovered": 708,
-    "new": 1,
-    "stored": 4917,
+    "status": "ok",
+    "checked_at": "2026-11-06T04:56:23+09:00",
+    "discovered": 709,
+    "new": 2,
+    "stored": 4919,
     "feed_items": 500,
     "pending_metadata": 1,
     "images_in_feed": 337,
     "verified_images_in_feed": 337,
-    "article_attempts": 26,
-    "article_successes": 23,
+    "article_attempts": 17,
+    "article_successes": 17,
     "image_checks": 0,
     "image_successes": 0,
-    "http_requests": 31,
+    "http_requests": 22,
     "pages": 4,
-    "errors": [
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g"
-      },
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
-      },
-      {
-        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
-        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
-      }
-    ],
+    "errors": [],
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
-    "newest_publication": "2026-11-06T03:00:39+09:00",
-    "oldest_in_feed": "2026-11-04T00:55:38+09:00"
+    "newest_publication": "2026-11-06T03:51:04+09:00",
+    "oldest_in_feed": "2026-11-04T03:00:37+09:00"
   }
 }
