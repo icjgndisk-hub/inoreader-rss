@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-07T03:08:05+09:00",
+  "generated_at": "2026-11-07T04:20:41+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "ok",
-      "checked_at": "2026-11-07T03:07:22+09:00",
+      "checked_at": "2026-11-07T04:20:11+09:00",
       "discovered": 30,
       "new": 0,
       "stored": 547,
@@ -26,7 +26,7 @@
     },
     "weekly-ascii": {
       "status": "ok",
-      "checked_at": "2026-11-07T03:07:22+09:00",
+      "checked_at": "2026-11-07T04:20:11+09:00",
       "discovered": 269,
       "new": 0,
       "stored": 3340,
@@ -49,7 +49,7 @@
     },
     "ina-dani": {
       "status": "ok",
-      "checked_at": "2026-11-07T03:07:22+09:00",
+      "checked_at": "2026-11-07T04:20:11+09:00",
       "discovered": 60,
       "new": 0,
       "stored": 637,
@@ -59,9 +59,9 @@
       "verified_images_in_feed": 500,
       "article_attempts": 0,
       "article_successes": 0,
-      "image_checks": 5,
-      "image_successes": 5,
-      "http_requests": 8,
+      "image_checks": 0,
+      "image_successes": 0,
+      "http_requests": 3,
       "pages": 2,
       "errors": [],
       "coverage": [
@@ -72,19 +72,19 @@
     },
     "shinmai": {
       "status": "partial",
-      "checked_at": "2026-11-07T03:07:22+09:00",
-      "discovered": 835,
-      "new": 6,
-      "stored": 5221,
+      "checked_at": "2026-11-07T04:20:11+09:00",
+      "discovered": 832,
+      "new": 2,
+      "stored": 5223,
       "feed_items": 500,
       "pending_metadata": 1,
-      "images_in_feed": 332,
-      "verified_images_in_feed": 332,
-      "article_attempts": 19,
-      "article_successes": 16,
+      "images_in_feed": 330,
+      "verified_images_in_feed": 330,
+      "article_attempts": 28,
+      "article_successes": 25,
       "image_checks": 0,
       "image_successes": 0,
-      "http_requests": 24,
+      "http_requests": 33,
       "pages": 4,
       "errors": [
         {
@@ -103,8 +103,8 @@
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-11-07T03:05:20+09:00",
-      "oldest_in_feed": "2026-11-05T10:28:11+09:00"
+      "newest_publication": "2026-11-07T03:57:13+09:00",
+      "oldest_in_feed": "2026-11-05T10:34:59+09:00"
     }
   }
 }
