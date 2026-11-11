@@ -1,7 +1,7 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-11-12T03:29:39+09:00",
+    "checked_at": "2026-11-12T04:38:55+09:00",
     "discovered": 30,
     "new": 0,
     "stored": 549,
@@ -24,7 +24,7 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-11-12T03:29:39+09:00",
+    "checked_at": "2026-11-12T04:38:55+09:00",
     "discovered": 488,
     "new": 0,
     "stored": 3559,
@@ -47,7 +47,7 @@
   },
   "ina-dani": {
     "status": "ok",
-    "checked_at": "2026-11-12T03:29:39+09:00",
+    "checked_at": "2026-11-12T04:38:55+09:00",
     "discovered": 60,
     "new": 0,
     "stored": 666,
@@ -69,22 +69,67 @@
     "oldest_in_feed": "2026-08-03T00:00:00+09:00"
   },
   "shinmai": {
-    "status": "ok",
-    "checked_at": "2026-11-12T03:29:39+09:00",
-    "discovered": 827,
-    "new": 2,
+    "status": "partial",
+    "checked_at": "2026-11-12T04:38:56+09:00",
+    "discovered": 825,
+    "new": 0,
     "stored": 6374,
     "feed_items": 500,
     "pending_metadata": 1,
     "images_in_feed": 342,
     "verified_images_in_feed": 342,
-    "article_attempts": 10,
-    "article_successes": 10,
+    "article_attempts": 90,
+    "article_successes": 79,
     "image_checks": 0,
     "image_successes": 0,
-    "http_requests": 15,
+    "http_requests": 95,
     "pages": 4,
-    "errors": [],
+    "errors": [
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026110601001953",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026110601001953"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbg82hvhog6jr71fqo0g"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gf01dbam54bhmiigs3pbpa4g"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026102201001590",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026102201001590"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026102201001344",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026102201001344"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026102201001233",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026102201001233"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026102201000990",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026102201000990"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026102001001485",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026102001001485"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026102001001152",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026102001001152"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026102001000701",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026102001000701"
+      },
+      {
+        "url": "https://www.shinmai.co.jp/news/article/gfkn2026101901001329",
+        "error": "404 Client Error: Not Found for url: https://www.shinmai.co.jp/news/article/gfkn2026101901001329"
+      }
+    ],
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
