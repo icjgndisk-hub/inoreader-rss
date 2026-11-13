@@ -1,19 +1,19 @@
 {
   "goguynet-matsumoto": {
     "status": "ok",
-    "checked_at": "2026-11-13T13:55:58+09:00",
+    "checked_at": "2026-11-13T22:02:30+09:00",
     "discovered": 30,
-    "new": 1,
+    "new": 0,
     "stored": 551,
     "feed_items": 500,
     "pending_metadata": 0,
     "images_in_feed": 500,
     "verified_images_in_feed": 500,
-    "article_attempts": 1,
-    "article_successes": 1,
-    "image_checks": 2,
-    "image_successes": 2,
-    "http_requests": 7,
+    "article_attempts": 8,
+    "article_successes": 8,
+    "image_checks": 0,
+    "image_successes": 0,
+    "http_requests": 12,
     "pages": 3,
     "errors": [],
     "coverage": [
@@ -24,60 +24,165 @@
   },
   "weekly-ascii": {
     "status": "ok",
-    "checked_at": "2026-11-13T13:55:58+09:00",
-    "discovered": 575,
-    "new": 28,
-    "stored": 3646,
+    "checked_at": "2026-11-13T22:02:30+09:00",
+    "discovered": 616,
+    "new": 41,
+    "stored": 3687,
     "feed_items": 500,
     "pending_metadata": 0,
     "images_in_feed": 500,
-    "verified_images_in_feed": 500,
-    "article_attempts": 8,
-    "article_successes": 8,
+    "verified_images_in_feed": 494,
+    "article_attempts": 17,
+    "article_successes": 17,
     "image_checks": 35,
     "image_successes": 35,
-    "http_requests": 48,
+    "http_requests": 57,
     "pages": 3,
     "errors": [],
     "coverage": [
       "rss + top + monthly archives"
     ],
-    "newest_publication": "2026-11-13T13:55:00+09:00",
-    "oldest_in_feed": "2026-11-03T12:00:00+09:00"
+    "newest_publication": "2026-11-13T21:30:00+09:00",
+    "oldest_in_feed": "2026-11-04T17:55:00+09:00"
   },
   "ina-dani": {
-    "status": "ok",
-    "checked_at": "2026-11-13T13:55:58+09:00",
+    "status": "partial",
+    "checked_at": "2026-11-13T22:02:30+09:00",
     "discovered": 60,
-    "new": 0,
-    "stored": 674,
+    "new": 7,
+    "stored": 681,
     "feed_items": 500,
     "pending_metadata": 0,
-    "images_in_feed": 500,
-    "verified_images_in_feed": 500,
+    "images_in_feed": 474,
+    "verified_images_in_feed": 474,
     "article_attempts": 8,
     "article_successes": 8,
-    "image_checks": 8,
-    "image_successes": 8,
-    "http_requests": 19,
+    "image_checks": 26,
+    "image_successes": 0,
+    "http_requests": 37,
     "pages": 2,
-    "errors": [],
+    "errors": [
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69617/6af6dbe8e65f0.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69617/6af6dbe8e65f0.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69616/6af6dbd96b129.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69616/6af6dbd96b129.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69615/6af6da82698ab.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69615/6af6da82698ab.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69614/6af6d9a902e77.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69614/6af6d9a902e77.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69613/6af6e19c0c9be.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69613/6af6e19c0c9be.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69612/6af6e51b24f28.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69612/6af6e51b24f28.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69611/6af6e1ae61331.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69611/6af6e1ae61331.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69573/6aedbe1d8946e.jpg",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69573/6aedbe1d8946e.jpg"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69572/6aeda45d286c7.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69572/6aeda45d286c7.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69571/6aeda3fe0bb0b.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69571/6aeda3fe0bb0b.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69570/6aeda330aba3e.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69570/6aeda330aba3e.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69569/6aeda3065bfa5.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69569/6aeda3065bfa5.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69568/6aeda29d5b747.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69568/6aeda29d5b747.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69531/6ae46f8b71ed2.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69531/6ae46f8b71ed2.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69528/6ae4659993ba0.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69528/6ae4659993ba0.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69527/6ae4649bd631d.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69527/6ae4649bd631d.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69526/6ae46104d8884.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69526/6ae46104d8884.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69525/6ae464aebecf0.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69525/6ae464aebecf0.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69524/6ae463e02bdb0.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69524/6ae463e02bdb0.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69523/6ae464bfa0347.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69523/6ae464bfa0347.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69522/6ae46036f13d1.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69522/6ae46036f13d1.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69520/6ae42fa677775.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69520/6ae42fa677775.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69519/6ae42e9eb3e13.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69519/6ae42e9eb3e13.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69530/6ae46a447dd3a.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69530/6ae46a447dd3a.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69529/6ae469999b448.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69529/6ae469999b448.JPG"
+      },
+      {
+        "url": "https://ina-dani.net/uploads/topic/image/69521/6ae43b51027d5.JPG",
+        "error": "image: 403 Client Error: Forbidden for url: https://ina-dani.net/uploads/topic/image/69521/6ae43b51027d5.JPG"
+      }
+    ],
     "coverage": [
       "known-frontier"
     ],
-    "newest_publication": "2026-11-12T00:00:00+09:00",
-    "oldest_in_feed": "2026-08-04T00:00:00+09:00"
+    "newest_publication": "2026-11-13T00:00:00+09:00",
+    "oldest_in_feed": "2026-08-05T00:00:00+09:00"
   },
   "shinmai": {
     "status": "ok",
-    "checked_at": "2026-11-13T13:55:58+09:00",
-    "discovered": 909,
-    "new": 78,
-    "stored": 6768,
+    "checked_at": "2026-11-13T22:02:30+09:00",
+    "discovered": 923,
+    "new": 172,
+    "stored": 6940,
     "feed_items": 500,
-    "pending_metadata": 1,
-    "images_in_feed": 367,
-    "verified_images_in_feed": 266,
+    "pending_metadata": 55,
+    "images_in_feed": 382,
+    "verified_images_in_feed": 225,
     "article_attempts": 90,
     "article_successes": 90,
     "image_checks": 35,
@@ -88,7 +193,7 @@
     "coverage": [
       "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
     ],
-    "newest_publication": "2026-11-13T12:29:37+09:00",
-    "oldest_in_feed": "2026-11-11T17:30:00+09:00"
+    "newest_publication": "2026-11-13T21:52:00+09:00",
+    "oldest_in_feed": "2026-11-12T06:00:00+09:00"
   }
 }
