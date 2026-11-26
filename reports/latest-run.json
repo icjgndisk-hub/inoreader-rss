@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-26T04:12:27+09:00",
+  "generated_at": "2026-11-26T11:19:57+09:00",
   "sites": {
     "goguynet-matsumoto": {
-      "status": "partial",
-      "checked_at": "2026-11-26T04:10:38+09:00",
+      "status": "ok",
+      "checked_at": "2026-11-26T11:18:17+09:00",
       "discovered": 30,
       "new": 0,
       "stored": 561,
@@ -11,18 +11,13 @@
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 0,
-      "article_successes": 0,
+      "article_attempts": 5,
+      "article_successes": 5,
       "image_checks": 35,
       "image_successes": 35,
-      "http_requests": 40,
+      "http_requests": 44,
       "pages": 3,
-      "errors": [
-        {
-          "url": "https://matsumoto.goguynet.jp/wp-content/uploads/sites/89/2025/11/main.jpg",
-          "error": "image: image-header-too-large"
-        }
-      ],
+      "errors": [],
       "coverage": [
         "known-frontier"
       ],
@@ -31,32 +26,32 @@
     },
     "weekly-ascii": {
       "status": "ok",
-      "checked_at": "2026-11-26T04:10:38+09:00",
-      "discovered": 1183,
-      "new": 31,
-      "stored": 4254,
+      "checked_at": "2026-11-26T11:18:17+09:00",
+      "discovered": 1198,
+      "new": 15,
+      "stored": 4269,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
-      "article_attempts": 10,
-      "article_successes": 10,
+      "article_attempts": 8,
+      "article_successes": 8,
       "image_checks": 35,
       "image_successes": 35,
-      "http_requests": 50,
+      "http_requests": 48,
       "pages": 3,
       "errors": [],
       "coverage": [
         "rss + top + monthly archives"
       ],
-      "newest_publication": "2026-11-25T23:45:00+09:00",
-      "oldest_in_feed": "2026-11-16T16:00:00+09:00"
+      "newest_publication": "2026-11-26T11:15:00+09:00",
+      "oldest_in_feed": "2026-11-16T18:00:00+09:00"
     },
     "ina-dani": {
       "status": "ok",
-      "checked_at": "2026-11-26T04:10:38+09:00",
+      "checked_at": "2026-11-26T11:18:17+09:00",
       "discovered": 60,
-      "new": 2,
+      "new": 0,
       "stored": 738,
       "feed_items": 500,
       "pending_metadata": 0,
@@ -77,13 +72,13 @@
     },
     "shinmai": {
       "status": "ok",
-      "checked_at": "2026-11-26T04:10:38+09:00",
-      "discovered": 846,
-      "new": 122,
-      "stored": 10130,
+      "checked_at": "2026-11-26T11:18:17+09:00",
+      "discovered": 872,
+      "new": 72,
+      "stored": 10202,
       "feed_items": 500,
-      "pending_metadata": 64,
-      "images_in_feed": 379,
+      "pending_metadata": 25,
+      "images_in_feed": 372,
       "verified_images_in_feed": 175,
       "article_attempts": 90,
       "article_successes": 90,
@@ -95,8 +90,8 @@
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-11-26T03:10:19+09:00",
-      "oldest_in_feed": "2026-11-24T06:44:51+09:00"
+      "newest_publication": "2026-11-26T11:13:48+09:00",
+      "oldest_in_feed": "2026-11-24T17:00:00+09:00"
     }
   }
 }
