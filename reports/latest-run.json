@@ -1,35 +1,12 @@
 {
-  "generated_at": "2026-11-28T12:24:30+09:00",
+  "generated_at": "2026-11-28T21:19:48+09:00",
   "sites": {
     "goguynet-matsumoto": {
       "status": "ok",
-      "checked_at": "2026-11-28T12:22:50+09:00",
+      "checked_at": "2026-11-28T21:18:00+09:00",
       "discovered": 30,
-      "new": 0,
-      "stored": 563,
-      "feed_items": 500,
-      "pending_metadata": 0,
-      "images_in_feed": 500,
-      "verified_images_in_feed": 500,
-      "article_attempts": 5,
-      "article_successes": 5,
-      "image_checks": 35,
-      "image_successes": 35,
-      "http_requests": 44,
-      "pages": 3,
-      "errors": [],
-      "coverage": [
-        "known-frontier"
-      ],
-      "newest_publication": "2026-11-27T12:30:00+09:00",
-      "oldest_in_feed": "2024-11-09T07:54:00+09:00"
-    },
-    "weekly-ascii": {
-      "status": "ok",
-      "checked_at": "2026-11-28T12:22:50+09:00",
-      "discovered": 1331,
-      "new": 8,
-      "stored": 4402,
+      "new": 1,
+      "stored": 564,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
@@ -38,48 +15,71 @@
       "article_successes": 8,
       "image_checks": 35,
       "image_successes": 35,
-      "http_requests": 48,
+      "http_requests": 47,
+      "pages": 3,
+      "errors": [],
+      "coverage": [
+        "known-frontier"
+      ],
+      "newest_publication": "2026-11-28T12:30:00+09:00",
+      "oldest_in_feed": "2024-11-10T07:54:00+09:00"
+    },
+    "weekly-ascii": {
+      "status": "ok",
+      "checked_at": "2026-11-28T21:18:01+09:00",
+      "discovered": 1365,
+      "new": 34,
+      "stored": 4436,
+      "feed_items": 500,
+      "pending_metadata": 0,
+      "images_in_feed": 500,
+      "verified_images_in_feed": 500,
+      "article_attempts": 13,
+      "article_successes": 13,
+      "image_checks": 35,
+      "image_successes": 35,
+      "http_requests": 53,
       "pages": 3,
       "errors": [],
       "coverage": [
         "rss + top + monthly archives"
       ],
-      "newest_publication": "2026-11-28T12:15:00+09:00",
-      "oldest_in_feed": "2026-11-18T12:35:00+09:00"
+      "newest_publication": "2026-11-28T21:00:00+09:00",
+      "oldest_in_feed": "2026-11-18T17:50:00+09:00"
     },
     "ina-dani": {
       "status": "ok",
-      "checked_at": "2026-11-28T12:22:50+09:00",
+      "checked_at": "2026-11-28T21:18:01+09:00",
       "discovered": 60,
-      "new": 0,
-      "stored": 756,
+      "new": 3,
+      "stored": 759,
       "feed_items": 500,
       "pending_metadata": 0,
       "images_in_feed": 500,
       "verified_images_in_feed": 500,
       "article_attempts": 8,
       "article_successes": 8,
-      "image_checks": 19,
-      "image_successes": 19,
-      "http_requests": 30,
+      "image_checks": 35,
+      "image_successes": 35,
+      "http_requests": 46,
       "pages": 2,
       "errors": [],
       "coverage": [
         "known-frontier"
       ],
-      "newest_publication": "2026-11-27T00:00:00+09:00",
+      "newest_publication": "2026-11-28T00:00:00+09:00",
       "oldest_in_feed": "2026-08-24T00:00:00+09:00"
     },
     "shinmai": {
       "status": "ok",
-      "checked_at": "2026-11-28T12:22:50+09:00",
-      "discovered": 1051,
-      "new": 54,
-      "stored": 10853,
+      "checked_at": "2026-11-28T21:18:01+09:00",
+      "discovered": 942,
+      "new": 115,
+      "stored": 10968,
       "feed_items": 500,
-      "pending_metadata": 7,
-      "images_in_feed": 357,
-      "verified_images_in_feed": 209,
+      "pending_metadata": 23,
+      "images_in_feed": 352,
+      "verified_images_in_feed": 206,
       "article_attempts": 90,
       "article_successes": 90,
       "image_checks": 35,
@@ -90,8 +90,8 @@
       "coverage": [
         "public SSR listings + rolling sitemap; sitemap lastmod is NOT publication date"
       ],
-      "newest_publication": "2026-11-28T12:00:01+09:00",
-      "oldest_in_feed": "2026-11-26T16:28:28+09:00"
+      "newest_publication": "2026-11-28T21:03:00+09:00",
+      "oldest_in_feed": "2026-11-26T20:39:00+09:00"
     }
   }
 }
